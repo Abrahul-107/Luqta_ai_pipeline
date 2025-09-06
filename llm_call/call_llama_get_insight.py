@@ -27,18 +27,17 @@ def get_insights_from_llm(input_json: dict) -> dict:
         """
 
         prompt = (
-            """You are acting as a **Senior Business Analyst** specializing in contest engagement platforms 
-            and ROI optimization. Your role is to carefully review the following JSON dataset 
-            that contains contest participation, engagement, and performance analytics.
+                "You are a Senior Business Analyst specializing in contest engagement platforms and ROI optimization. "
+                "Carefully review the following JSON dataset, which contains contest participation, engagement, and performance analytics. "
+                "Your task is to transform this raw data into clear, actionable, and structured insights that directly improve ROI, "
+                "boost participant engagement, and enhance overall campaign effectiveness. "
+                "When suggesting ROI improvements, include specific percentage targets (e.g., increase reward distribution by 15%, "
+                "encourage participant joins by 10%).\n\n"
+                f"Input:\n{json.dumps(input_json)}\n\n"
+                f"Output format:\n{schema_description}\n\n"
+                "Return only valid JSON."
+                )
 
-            Your objective is to transform this raw contest engagement data into **clear, actionable, and structured insights** 
-            that can directly improve ROI, engagement, and campaign effectiveness.
-            \n"""
-
-            f"Input \n{json.dumps(input_json)}\n"
-            f"Output format:\n{schema_description}\n"
-            "Only return valid JSON."
-        )
 
         headers = {
             "Authorization": f"Bearer {TOGETHER_API_KEY}",
