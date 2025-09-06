@@ -1,0 +1,96 @@
+{
+  "overall_recommendations": {
+    "roi_improvements": [
+      "Optimize contest duration to reduce average time spent by 30% to improve engagement",
+      "Increase total winners by 20% to boost completion rate"
+    ],
+    "feature_suggestions": [
+      "Implement a leaderboard to increase competition and engagement",
+      "Add a referral system to increase total joins"
+    ],
+    "engagement_strategies": [
+      "Target both genders equally to increase overall engagement",
+      "Focus on pending rewards to improve completion rate"
+    ],
+    "reward_and_incentive_tips": [
+      "Offer more rewards to increase total winners",
+      "Announce winners more frequently to improve engagement"
+    ]
+  },
+  "client_recommendations": [
+    {
+      "client_name": "AMEER Hamza",
+      "strengths": [],
+      "weaknesses": [
+        "Zero engagement metrics"
+      ],
+      "roi_tips": [
+        "Increase marketing efforts to improve visibility"
+      ],
+      "feature_suggestions": [
+        "Implement a welcome offer to encourage joins"
+      ],
+      "engagement_tactics": [
+        "Target female audience to increase engagement"
+      ],
+      "audience_insights": [
+        "Target audience is not engaging with the contest"
+      ]
+    },
+    {
+      "client_name": "M Tayyab",
+      "strengths": [
+        "Some engagement metrics are present"
+      ],
+      "weaknesses": [
+        "Low completion rate and average time spent"
+      ],
+      "roi_tips": [
+        "Optimize contest duration to improve engagement"
+      ],
+      "feature_suggestions": [
+        "Add a progress bar to increase completion rate"
+      ],
+      "engagement_tactics": [
+        "Target male audience to increase engagement"
+      ],
+      "audience_insights": [
+        "Target audience is somewhat engaging with the contest"
+      ]
+    },
+    {
+      "client_name": "Tayyab",
+      "strengths": [
+        "High engagement metrics"
+      ],
+      "weaknesses": [
+        "CTR can be improved"
+      ],
+      "roi_tips": [
+        "Increase total winners to improve completion rate"
+      ],
+      "feature_suggestions": [
+        "Implement a social sharing feature to increase clicks"
+      ],
+      "engagement_tactics": [
+        "Target both genders equally to increase engagement"
+      ],
+      "audience_insights": [
+        "Target audience is highly engaging with the contest"
+      ]
+    }
+  ],
+  "campaign_level_recommendations": [
+    {
+      "campaign_name": "Contest Campaign",
+      "issues_detected": [
+        "Low completion rate",
+        "Low CTR"
+      ],
+      "fixes": [
+        "Optimize contest duration",
+        "Improve ad targeting"
+      ]
+    }
+  ]
+}

@@ -153,6 +153,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+/luqta-env
 
 # mypy
 .mypy_cache/
