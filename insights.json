@@ -1,0 +1,112 @@
+{
+  "overall_recommendations": {
+    "roi_improvements": [
+      "Optimize contest duration to increase engagement",
+      "Improve reward distribution to encourage more joins"
+    ],
+    "feature_suggestions": [
+      "Implement social sharing features to increase views",
+      "Add gamification elements to enhance user experience"
+    ],
+    "engagement_strategies": [
+      "Target female audience with specific rewards",
+      "Increase click-through rate by optimizing ad creatives"
+    ],
+    "reward_and_incentive_tips": [
+      "Offer more exclusive rewards to increase joins",
+      "Announce winners more frequently to maintain user interest"
+    ]
+  },
+  "client_recommendations": [
+    {
+      "client_name": "AMEER Hamza",
+      "strengths": [],
+      "weaknesses": [
+        "Zero engagement metrics",
+        "No winners announced"
+      ],
+      "roi_tips": [
+        "Focus on increasing views and joins",
+        "Optimize ad targeting for better ROI"
+      ],
+      "feature_suggestions": [
+        "Implement email reminders for contest participation",
+        "Add referral programs to increase engagement"
+      ],
+      "engagement_tactics": [
+        "Collaborate with influencers to increase brand awareness",
+        "Offer exclusive rewards for loyal customers"
+      ],
+      "audience_insights": [
+        "Target audience is not responding to current marketing strategies",
+        "Need to re-evaluate ad targeting and messaging"
+      ]
+    },
+    {
+      "client_name": "M Tayyab",
+      "strengths": [
+        "Some joins and winners announced"
+      ],
+      "weaknesses": [
+        "Low engagement metrics",
+        "No views or clicks recorded"
+      ],
+      "roi_tips": [
+        "Optimize ad creatives for better click-through rate",
+        "Increase reward distribution to encourage more joins"
+      ],
+      "feature_suggestions": [
+        "Implement social sharing features to increase views",
+        "Add gamification elements to enhance user experience"
+      ],
+      "engagement_tactics": [
+        "Target audience with specific rewards and incentives",
+        "Collaborate with influencers to increase brand awareness"
+      ],
+      "audience_insights": [
+        "Target audience is somewhat responsive to current marketing strategies",
+        "Need to increase ad spend for better ROI"
+      ]
+    },
+    {
+      "client_name": "Tayyab",
+      "strengths": [
+        "High engagement metrics",
+        "Many winners announced"
+      ],
+      "weaknesses": [
+        "CTR could be improved",
+        "Completion rate is below average"
+      ],
+      "roi_tips": [
+        "Optimize ad targeting for better ROI",
+        "Increase reward distribution to encourage more joins"
+      ],
+      "feature_suggestions": [
+        "Implement email reminders for contest participation",
+        "Add referral programs to increase engagement"
+      ],
+      "engagement_tactics": [
+        "Target audience with specific rewards and incentives",
+        "Collaborate with influencers to increase brand awareness"
+      ],
+      "audience_insights": [
+        "Target audience is highly responsive to current marketing strategies",
+        "Need to maintain current ad spend for consistent ROI"
+      ]
+    }
+  ],
+  "campaign_level_recommendations": [
+    {
+      "campaign_name": "Contest Campaign",
+      "issues_detected": [
+        "Low completion rate",
+        "Uneven reward distribution"
+      ],
+      "fixes": [
+        "Optimize contest duration and reward distribution",
+        "Improve ad targeting for better ROI"
+      ]
+    }
+  ]
+}
