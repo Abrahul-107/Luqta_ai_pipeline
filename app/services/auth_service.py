@@ -20,9 +20,11 @@ class AuthService:
         user = self.authenticate_user(form_data.username, form_data.password)
         if not user:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid credentials")
-        access_token_expires = timedelta(minutes=30)
+        
+        # Added access_token_expires to the response
+        access_token_expires = timedelta(minutes=60)
         token = create_access_token({"sub": user["username"]}, expires_delta=access_token_expires)
-        return {"access_token": token, "token_type": "bearer"}
+        return {"access_token": token, "token_type": "bearer", "access_token_expires_in_minutes": access_token_expires/60}
 
     def get_current_user(self, token: str = Depends(oauth2_scheme)):
         username = verify_token(token)

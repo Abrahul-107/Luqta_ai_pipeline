@@ -8,6 +8,7 @@ class ContestApp:
 
     def _include_routers(self):
         self.app.include_router(router, prefix="/api", tags=["Insights"])
+        self.app.include_router(router, prefix="/api", tags=["visualization_insights"])
 
     def get_app(self) -> FastAPI:
         return self.app
