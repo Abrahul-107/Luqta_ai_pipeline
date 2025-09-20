@@ -4,7 +4,7 @@ from app.db.repository import DatabaseRepository
 from app.api.schemas import InsightsResponse
 from app.services.auth_service import AuthService
 from contest_insights.contestInsights import generate_business_insights
-
+from visualization.visualization_mapper import get_visualization_insights
 
 router = APIRouter()
 db_repo = DatabaseRepository()
@@ -38,9 +38,12 @@ def get_visualization_report(current_user: str = Depends(auth_service.get_curren
             raise HTTPException(status_code=404, detail="No data found")
         
         json_for_llm = generate_business_insights(df)
+        visualization_json = get_visualization_insights( json_for_llm)
+        if visualization_json.get("status") != "success":   
+            raise HTTPException(status_code=500, detail="Failed to generate visualization config")
         if not isinstance(json_for_llm, dict):
             raise HTTPException(status_code=500, detail="Invalid data format for insights generation")
-        
-        return json_for_llm
+
+        return {"visualization": visualization_json, "insights": json_for_llm}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

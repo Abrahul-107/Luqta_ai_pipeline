@@ -18,7 +18,7 @@ eggs/
 lib/
 lib64/
 parts/
-sdist/
+sdist/git config --global user.email abraul882@gmail.com
 var/
 wheels/
 share/python-wheels/
